@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+const bootstrap = require("bootstrap");
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section className="section-stories m-2">
+      <div className="bg-video">
+        <video className="bg-video__content" autoPlay muted loop>
+          <source src="/img/video.mp4" type="video/mp4" />
+          Your browser is not supported!
+        </video>
+      </div>
+      <div className="container text-center">
+        <h3 className="heading-primary--main">Anthony Abou Khalil</h3>
+        <h5 className="heading-primary--sub">Front End Developer</h5>
+      </div>
+      <div className="arrows">&darr;</div>
+    </section>
   );
 }
 
