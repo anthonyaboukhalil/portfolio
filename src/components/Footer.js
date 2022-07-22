@@ -6,30 +6,30 @@ const Footer = () => {
         <div className="row">
           <div className="col">
             {" "}
-            <div class="footer__navigation">
-              <ul class="footer__list">
-                <li class="footer__item">
-                  <a href="#" class="footer__link">
+            <div className="footer__navigation">
+              <ul className="footer__list">
+                <li className="footer__item">
+                  <a href="#" className="footer__link">
                     Company
                   </a>
                 </li>
-                <li class="footer__item">
-                  <a href="#" class="footer__link">
+                <li className="footer__item">
+                  <a href="#" className="footer__link">
                     Contact us
                   </a>
                 </li>
-                <li class="footer__item">
-                  <a href="#" class="footer__link">
+                <li className="footer__item">
+                  <a href="#" className="footer__link">
                     Carrers
                   </a>
                 </li>
-                <li class="footer__item">
-                  <a href="#" class="footer__link">
+                <li className="footer__item">
+                  <a href="#" className="footer__link">
                     Privacy policy
                   </a>
                 </li>
-                <li class="footer__item">
-                  <a href="#" class="footer__link">
+                <li className="footer__item">
+                  <a href="#" className="footer__link">
                     Terms
                   </a>
                 </li>
