@@ -1,4 +1,3 @@
-import About from "./components/About";
 const bootstrap = require("bootstrap");
 function App() {
   return (

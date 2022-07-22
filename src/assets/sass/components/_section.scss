@@ -2,11 +2,21 @@
   position: relative;
   padding: 25rem 0;
   height: 95vh;
+
+  overflow: hidden;
 }
 
 .section-about {
   background-color: $gray-100;
   opacity: 0.8;
-  height: 95vh;
+  height: 125vh;
   position: relative;
+  padding-bottom: 10rem;
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 85%);
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  height: 95vh;
 }
