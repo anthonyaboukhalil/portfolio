@@ -1,7 +1,7 @@
 const bootstrap = require("bootstrap");
 function App() {
   return (
-    <section className="section-stories ">
+    <section className="section-header ">
       <div className="bg-video">
         <video className="bg-video__content" autoPlay muted loop>
           <source src="/img/video.mp4" type="video/mp4" />

@@ -5,32 +5,27 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col">
-            {" "}
             <div className="footer__navigation">
               <ul className="footer__list">
                 <li className="footer__item">
-                  <a href="#" className="footer__link">
-                    Company
+                  <a
+                    href="https://www.linkedin.com/in/anthony-abou-khalil-7a9792244/"
+                    className="footer__link"
+                  >
+                    LinkedIn
                   </a>
                 </li>
                 <li className="footer__item">
-                  <a href="#" className="footer__link">
-                    Contact us
+                  <a
+                    href="https://github.com/anthonyaboukhalil"
+                    className="footer__link"
+                  >
+                    github
                   </a>
                 </li>
                 <li className="footer__item">
-                  <a href="#" className="footer__link">
-                    Carrers
-                  </a>
-                </li>
-                <li className="footer__item">
-                  <a href="#" className="footer__link">
-                    Privacy policy
-                  </a>
-                </li>
-                <li className="footer__item">
-                  <a href="#" className="footer__link">
-                    Terms
+                  <a href="mailto:abk351@gmail.com" className="footer__link">
+                    e-mail
                   </a>
                 </li>
               </ul>
