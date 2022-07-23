@@ -3,6 +3,9 @@
   top: 18rem;
   left: 50%;
   transform: translate(-50%, -50%);
+  @include media-breakpoint-down(md) {
+    top: 18rem;
+  }
 }
 .col {
   &:not(:last-child) {
@@ -18,6 +21,11 @@
     transition: transform 0.3s;
     &:hover {
       transform: translateY(-1.5rem) scale(1.03);
+    }
+    @include media-breakpoint-down(md) {
+      &:not(:last-child) {
+        margin-top: 30rem;
+      }
     }
   }
   &_icon {

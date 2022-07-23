@@ -6,7 +6,9 @@
   width: 100%;
   z-index: 1;
   opacity: 0.15;
-
+  @include media-breakpoint-down(md) {
+    height: 60%;
+  }
   overflow: hidden;
 
   &__content {
