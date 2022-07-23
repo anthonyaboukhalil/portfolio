@@ -14,7 +14,7 @@ function App() {
         </div>
         <div className="container text-center">
           <h3 className="heading-primary--main">Anthony Abou Khalil</h3>
-          <h5 className="heading-primary--sub">Front End Developer</h5>
+          <h5 className="heading-primary--sub">Web Developer</h5>
         </div>
         <div className="arrow bounce"></div>
         <Outlet />

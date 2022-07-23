@@ -9,10 +9,10 @@ const Qualifications = () => {
         <Fade left>
           <h2 className="heading-secondary">Qualifications</h2>
           <p className="paragraph">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            voluptatum nostrum maxime porro eaque labore aperiam necessitatibus
-            velit! Cumque maiores quibusdam fuga nulla libero aspernatur,
-            praesentium iusto. Quis, veritatis nihil?
+            Throughout my time at university I've worked with different
+            languages,frameworks,and libraries that include HTML, CSS, JS
+            ,React, Redux, Ruby on Rails, Node, Express and striving to build on
+            top of them every single day.
           </p>
         </Fade>
       </div>
@@ -25,10 +25,9 @@ const Qualifications = () => {
                 <IoLogoHtml5 />
               </i>
               <p className="paragraph">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut
-                fuga repellat, nam molestiae cupiditate itaque? Qui a expedita
-                accusamus facilis? Natus nesciunt consequatur doloremque nam
-                omnis! Minima mollitia consectetur eos.
+                Experience with building modern, semantic and accessible HTML5
+                in addition to creating common components and layout patterns
+                for professional website design and development.
               </p>
             </div>
             <div className="col col__qualifications">
@@ -36,10 +35,11 @@ const Qualifications = () => {
                 <IoLogoSass />
               </i>
               <p className="paragraph">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut
-                fuga repellat, nam molestiae cupiditate itaque? Qui a expedita
-                accusamus facilis? Natus nesciunt consequatur doloremque nam
-                omnis! Minima mollitia consectetur eos.
+                I am familiar with CSS preprocessors that simplify the process
+                of styling responsive websites and structuring them using grid
+                layouts and flexbox, in addition to modern CSS techniques to
+                create stunning designs and effects that are responsive on
+                different devices.
               </p>
             </div>
             <div className="col col__qualifications">
@@ -47,10 +47,11 @@ const Qualifications = () => {
                 <IoLogoJavascript />
               </i>
               <p className="paragraph">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut
-                fuga repellat, nam molestiae cupiditate itaque? Qui a expedita
-                accusamus facilis? Natus nesciunt consequatur doloremque nam
-                omnis! Minima mollitia consectetur eos.
+                A solid foundation in javascript is essential and allows me to
+                use many libraries and frameworks that are built with javascript
+                such as React, Node, Redux and many more. Moreover, being
+                famililar with the npm ecosystem makes the development process
+                and the workflow within the team more robust.
               </p>
             </div>
           </div>

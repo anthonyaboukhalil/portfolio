@@ -1,5 +1,6 @@
 .qualifications {
   position: absolute;
+  overflow: hidden;
   top: 18rem;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -15,6 +16,8 @@
     background-color: rgba($white, 0.8);
     font-size: 1.5rem;
     padding: 2.5rem;
+    min-height: 42rem;
+    height: 42rem;
     text-align: center;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($black, 0.15);
@@ -23,9 +26,8 @@
       transform: translateY(-1.5rem) scale(1.03);
     }
     @include media-breakpoint-down(md) {
-      &:not(:last-child) {
-        margin-top: 30rem;
-      }
+      overflow: scroll;
+      height: 10rem;
     }
   }
   &_icon {
