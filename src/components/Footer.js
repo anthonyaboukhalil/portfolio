@@ -11,6 +11,7 @@ const Footer = () => {
                   <a
                     href="https://www.linkedin.com/in/anthony-abou-khalil-7a9792244/"
                     className="footer__link"
+                    target="_blank"
                   >
                     LinkedIn
                   </a>
@@ -19,8 +20,9 @@ const Footer = () => {
                   <a
                     href="https://github.com/anthonyaboukhalil"
                     className="footer__link"
+                    target="_blank"
                   >
-                    github
+                    projects
                   </a>
                 </li>
                 <li className="footer__item">
@@ -32,7 +34,6 @@ const Footer = () => {
             </div>
           </div>
           <div className="col">
-            {" "}
             <p className="footer__copyright">Built by Anthony Abou Khalil</p>
           </div>
         </div>
