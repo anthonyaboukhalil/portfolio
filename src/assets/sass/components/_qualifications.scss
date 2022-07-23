@@ -1,0 +1,45 @@
+.qualifications {
+  position: absolute;
+  top: 18rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.col {
+  &:not(:last-child) {
+    margin-right: 2rem;
+  }
+  &__qualifications {
+    background-color: rgba($white, 0.8);
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($black, 0.15);
+    transition: transform 0.3s;
+    &:hover {
+      transform: translateY(-1.5rem) scale(1.03);
+    }
+  }
+  &_icon {
+    font-size: 3rem;
+
+    &--html {
+      color: $blue;
+    }
+
+    &--sass {
+      color: $red;
+    }
+    &--js {
+      color: $yellow;
+    }
+  }
+}
+.container {
+  &__qualifications {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

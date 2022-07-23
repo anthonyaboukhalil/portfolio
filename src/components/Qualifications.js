@@ -4,8 +4,8 @@ import { IoLogoJavascript, IoLogoHtml5, IoLogoSass } from "react-icons/io";
 
 const Qualifications = () => {
   return (
-    <section className="section-about">
-      <div className="about">
+    <section className="section-qualifications">
+      <div className="qualifications">
         <Fade left>
           <h2 className="heading-secondary">Qualifications</h2>
           <p className="paragraph">
@@ -17,10 +17,10 @@ const Qualifications = () => {
         </Fade>
       </div>
 
-      <div className="container container__about text-center">
+      <div className="container container__qualifications text-center">
         <Fade right>
           <div className="row align-items-center">
-            <div className="col col__about">
+            <div className="col col__qualifications">
               <i className="col_icon col_icon--html">
                 <IoLogoHtml5 />
               </i>
@@ -31,7 +31,7 @@ const Qualifications = () => {
                 omnis! Minima mollitia consectetur eos.
               </p>
             </div>
-            <div className="col col__about">
+            <div className="col col__qualifications">
               <i className="col_icon col_icon--sass">
                 <IoLogoSass />
               </i>
@@ -42,7 +42,7 @@ const Qualifications = () => {
                 omnis! Minima mollitia consectetur eos.
               </p>
             </div>
-            <div className="col col__about">
+            <div className="col col__qualifications">
               <i className="col_icon col_icon--js">
                 <IoLogoJavascript />
               </i>
