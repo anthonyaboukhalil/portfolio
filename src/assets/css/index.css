@@ -8549,7 +8549,7 @@ textarea.form-control-lg {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
-    @media (max-width: 767.98px) {
+    @media (max-width: 991.98px) {
       .about-section__text__paragraph {
         font-size: 1.5rem; } }
   .about-section__text__list {
@@ -8561,7 +8561,7 @@ textarea.form-control-lg {
     list-style: none; }
     .about-section__text__list__item {
       font-size: 3rem;
-      padding-top: 2rem;
+      padding-top: 1rem;
       font-weight: 400;
       transition: all 0.4s;
       animation-name: moveInRight;
@@ -8574,7 +8574,7 @@ textarea.form-control-lg {
           font-size: 2rem; } }
     .about-section__text__list__item--learning {
       font-size: 3rem;
-      padding-top: 2rem;
+      padding-top: 1rem;
       font-weight: 400;
       transition: all 0.4s;
       animation-name: moveInRight;
