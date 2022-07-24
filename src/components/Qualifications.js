@@ -50,7 +50,7 @@ const Qualifications = () => {
                 A solid foundation in javascript is essential and allows me to
                 use many libraries and frameworks that are built with javascript
                 such as React, Node, Redux and many more. Moreover, being
-                famililar with the npm ecosystem makes the development process
+                famililar with the NPM ecosystem makes the development process
                 and the workflow within the team more robust.
               </p>
             </div>
