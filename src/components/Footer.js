@@ -9,20 +9,20 @@ const Footer = () => {
               <ul className="footer__list">
                 <li className="footer__item">
                   <a
-                    href="https://www.linkedin.com/in/anthony-abou-khalil-7a9792244/"
-                    className="footer__link"
-                    target="_blank"
-                  >
-                    LinkedIn
-                  </a>
-                </li>
-                <li className="footer__item">
-                  <a
                     href="https://github.com/anthonyaboukhalil"
                     className="footer__link"
                     target="_blank"
                   >
                     projects
+                  </a>
+                </li>
+                <li className="footer__item">
+                  <a
+                    href="https://www.linkedin.com/in/anthony-abou-khalil-7a9792244/"
+                    className="footer__link"
+                    target="_blank"
+                  >
+                    linkedin
                   </a>
                 </li>
                 <li className="footer__item">

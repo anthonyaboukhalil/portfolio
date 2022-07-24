@@ -7,6 +7,12 @@
   @include media-breakpoint-down(md) {
     top: 18rem;
   }
+  @include media-breakpoint-down(sm) {
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+  }
 }
 .col {
   &:not(:last-child) {
@@ -25,9 +31,12 @@
     &:hover {
       transform: translateY(-1.5rem) scale(1.03);
     }
-    @include media-breakpoint-down(md) {
+    @include media-breakpoint-down(lg) {
       overflow: scroll;
       height: 10rem;
+    }
+    @include media-breakpoint-down(sm) {
+      opacity: 0;
     }
   }
   &_icon {

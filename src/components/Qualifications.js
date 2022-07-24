@@ -5,16 +5,20 @@ import { IoLogoJavascript, IoLogoHtml5, IoLogoSass } from "react-icons/io";
 const Qualifications = () => {
   return (
     <section className="section-qualifications">
-      <div className="qualifications">
-        <Fade left>
-          <h2 className="heading-secondary">Qualifications</h2>
-          <p className="paragraph">
-            Throughout my time at university I've worked with different
-            languages,frameworks,and libraries that include HTML, CSS, JS
-            ,React, Redux, Ruby on Rails, Node, Express and striving to build on
-            top of them every single day.
-          </p>
-        </Fade>
+      <div className="container">
+        <div className="row">
+          <div className="qualifications">
+            <Fade left>
+              <h2 className="heading-secondary">Qualifications</h2>
+              <p className="paragraph">
+                Throughout my time at university I've worked with different
+                languages,frameworks,and libraries that include HTML, CSS, JS
+                ,React, Redux, Ruby on Rails, Node, Express and striving to
+                build on top of them every single day.
+              </p>
+            </Fade>
+          </div>
+        </div>
       </div>
 
       <div className="container container__qualifications text-center">
